@@ -24,7 +24,6 @@ import{contenedor} from "./add.js";
 const creaarElemento = (respustas) =>{
   const link = document.createElement("li");
   const a = document.createElement("a");
-  const p = document.createElement("p");
   const img = document.createElement("img");
 
 /*la imagen de la foto*/
@@ -40,9 +39,14 @@ img.setAttribute("class","imagen");
 
  /*agregndo los elementos*/
 link.appendChild(a);
+
 contenedor.appendChild(img);
 contenedor.appendChild(link);
 }
   
+export const eliminar = ()=>{
 
-
+for (let i = 0; i < contenedor.children.length; i++) {
+  const elemina = contenedor.children[i].remove();
+}
+}

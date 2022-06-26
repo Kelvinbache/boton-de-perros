@@ -4,7 +4,8 @@ const btn = document.getElementById("btn");
 btn.addEventListener("click",buscador);
 
 /*contenedor */
-export const contenedor =document.getElementById("contenedor"); 
+export const h5 = document.getElementById("link");
+export const imgen = document.getElementById("foto");
 
 /*boton para eliminar */
 const botonEliminar = document.getElementById("btn2");

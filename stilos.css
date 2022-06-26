@@ -10,17 +10,13 @@
     list-style: none;
     font-family: 'Secular One', sans-serif;
     font-size: 12px;
-    grid-column: 2/2;
 }
 
 /*contenedor*/
 .contenedor{
   display: grid;
-  grid-template-columns: repeat(2,1fr);
-}
-
-.contenedor{
-    display: flex;
+  grid-column: 1/2;
+  grid-template-columns: repeat(1,1fr);
 }
 
 

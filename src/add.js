@@ -13,6 +13,6 @@ botonEliminar.addEventListener("click",eliminar);
 
 
 /*cosas que tengo que colocar
-1) boton para eliminar
-2)abril una nueva pestalla   
+1)abril una nueva pestalla   
+2)poner unos textos
 */
